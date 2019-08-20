@@ -548,7 +548,6 @@ nav a:before {
         border-radius:  10vw;
         margin-bottom: 1rem;
     }
-    
     .show-md
     {
         display: none;
@@ -566,6 +565,10 @@ nav a:before {
     
 @media (min-width: 768px) and (max-width: 991.98px)
 {
+    .navbar-brand
+    {
+        left:30%;
+    }
     .shadow-green
     {
         box-shadow: 2.5rem -2.5rem #E3FFE3;
@@ -604,6 +607,10 @@ nav a:before {
 }
 @media only screen and (min-width: 992px) 
 {
+    .navbar-brand
+    {
+        left:40%;
+    }
         
     .navbar  .navbar-nav .nav-link{
         color: #fff    ;
@@ -811,6 +818,10 @@ nav a:before {
 }  
 @media (max-width: 575.98px)
 {
+    .navbar-brand
+    {
+        left:0%;
+    }
     .col-xs-0
     {
         display: none;
