@@ -1,75 +1,75 @@
 <!DOCTYPE html>
 <head>
     <title>Шчодры Калдун</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="animate.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/aos.css" rel="stylesheet">
 </head>
 <body>   
 <header id="home">   
-    <div class="bg-img" style="background-image: url('2989.jpg');">
+    <div class="bg-img" style="background-image: url('img/1.jpg');">
         <div class="overlay"></div>
     </div>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolled">
-        <a class="navbar-brand" href="index.html">
-            <img src="logo-01.png" width="55" height="50" class="d-inline-block align-middle" alt="">
-            Шчодры Калдун
-        </a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolled " >
+           
+            <a class="navbar-brand" class ="central" style="left:40%;" href="index.html">
+                    <img src="img/logo-01.png" width="105" height="100"  class="d-inline-block align-middle" alt="">Шчодры Калдун
+                </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav column ml-auto mt-2 mt-lg-0">
+        <div class="navbar-collapse right collapse" >
+            <ul class="nav navbar-nav  w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">О ресторане</a>
+                    <a class="nav-link" href="about.html">О кафе</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="menu.html">Меню</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="services.html">Услуги</a>
                 </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Контакты</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">БЕЛ</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="home-wrapper">
+    <div class="home-wrapper" data-aos="fade-up" data-aos-duration="1200">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 col-lg-5 offset-lg-1 central" >
+                <div class="col-10 offset-1 col-md-12 col-lg-5 offset-lg-1 central" >
                     <div class = "block">
                         <h3 class = "text-left white-text">Старые традиции<br>Новые вкусы</h3>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
     <span class="animated bounce"></span>
 </header>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-wrap="true" data-interval="5000" data-aos="fade-up" data-aos-duration="1500">
         <div class="carousel-inner">
             <div class="carousel-item active ">
                 <div class="md-padding">
                     <div class="container-fluid start">
                         <div class="row">
-                            <div class="col-md-6 central">
-                                <img class="img-container shadow-yellow"src = "cook.png">
+                            <div class="col-md-6 central"  >
+                                <img class="img-container shadow-yellow"src = "img/main1.jpg">
                             </div>
-                            <div class="col-md-4 offset-md-1">
+                            <div class="col-md-4 offset-md-1" >
                                 <div class = "column">
-                                        <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2>
+                                        <!-- <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2> -->
                                         <div class="block">
                                             <h1 class = "text-left black-text">Дерун на шпажке</h1>
-                                            <p class = "text-left">                          
+                                            <p class = "text-left">Драник, приготовленный из молодого картофеля, нанизан на шпажку с различными наполнителями (мясо, курица, креветки, овощи)                      
                                         </div>
                                         <div>
                                                 <ol class="carousel-indicators">
@@ -89,14 +89,14 @@
                     <div class="container-fluid start">
                         <div class="row">
                             <div class="col-md-6 central">
-                                <img class="img-container shadow-yellow"src = "cook.png">
+                                <img class="img-container shadow-yellow"src = "img/main2.jpg">
                             </div>
                             <div class="col-md-4 offset-md-1 central">
                                 <div class = "column">
-                                        <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2>
+                                        <!-- <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2> -->
                                         <div class="block">
-                                            <h1 class = "text-left black-text">Гречневые блины с творожной эмульсией</h1>
-                                            <p class = "text-left">Заўсёды гатова нарадзіць колас. Зярняты, знойдзеныя ў грабні цах фараонаў, праз тысячы гадоў кінутыя ў зямлю, прарасталі і давалі ўраджай</h3>                          
+                                            <h1 class = "text-left black-text">Колбаски по-деревенски с овощным салатом</h1>
+                                            <p class = "text-left">Изготовленные из различных сортов мяса, жареные колбаски подаются вместе с полезным гарниром из свежих овощей                         
                                         </div>
                                         <div>
                                                 <ol class="carousel-indicators">
@@ -116,14 +116,14 @@
                     <div class="container-fluid start">
                         <div class="row">
                             <div class="col-md-6 central">
-                                <img class="img-container shadow-yellow"src = "cook.png">
+                                <img class="img-container shadow-yellow"src = "img/main3.jpg">
                             </div>
                             <div class="col-md-4 offset-md-1 central">
                                 <div class = "column">
-                                        <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2>
+                                        <!-- <h2 class = "text-left"><a href="menu.html">Просмотрите все меню</a></h2> -->
                                         <div class="block">
-                                            <h1 class = "text-left black-text">Мясное ассорти с отварным картофелем</h1>
-                                            <p class = "text-left">Заўсёды гатова нарадзіць колас. Зярняты, знойдзеныя ў грабні цах фараонаў, праз тысячы гадоў кінутыя ў зямлю, прарасталі і давалі ўраджай</h3>                          
+                                            <h1 class = "text-left black-text">"Сытная тарелка" из запеченных овощей</h1>
+                                            <p class = "text-left">Запеченный вместе с другими овощами и зеленью (помидоры, брокколи, шпинат), картофель может подаваться вместе с разнообразными соусами и мясными наполнителями       
                                         </div>
                                         <div>
                                                 <ol class="carousel-indicators">
@@ -156,7 +156,7 @@
     </div>
 </div> -->
 
-<div class = "sm-padding ">
+<div class = "sm-padding " data-aos="fade-up" data-aos-duration="1200">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-11 offset-md-1" >
@@ -166,7 +166,7 @@
                 <div>
                     <div id = "circle" class="central">
                         <div class="block">
-                            <img class="img-centered img-circle" src = "banquet-table.png">
+                            <img class="img-centered img-circle" src = "img/banquet-table.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Организация<br>банкетов</h5>
@@ -174,7 +174,7 @@
                 <div>
                     <div id = "circle" class="central">
                         <div class="block">
-                            <img class="img-centered img-circle" src = "guitar.png">
+                            <img class="img-centered img-circle" src = "img/guitar.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Бард<br>клуб</h5>
@@ -184,49 +184,49 @@
                 <div>
                     <div id = "circle" class="central">
                         <div class="block">
-                            <img class="img-centered img-circle" src = "saxophone.png">
+                            <img class="img-centered img-circle" src = "img/star.svg">
                         </div>
                     </div>
-                        <h5 class = "text-center gray-text">Джазовые<br>вечера</h5>
+                        <h5 class = "text-center gray-text">Звездные<br>встречи</h5>
                 </div>
                 <div>
                     <div id = "circle" class="central">
                         <div class="block">
-                            <img class="img-centered img-circle" src = "lecture.png">
+                            <img class="img-centered img-circle" src = "img/lecture.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Проведение<br>лекций</h5>
                 </div>
             </div>
             <div class="col-xs-0 col-sm-12 col-md-10 offset-md-1">
-                <div>
-                    <div id = "circle" class="central">
+                <div data-aos="zoom-in" data-aos-duration="1500">
+                    <div id = "circle" class="central" >
                         <div class="block">
-                            <img class="img-centered img-circle" src = "banquet-table.png">
+                            <img class="img-centered img-circle" src = "img/banquet-table.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Организация<br>банкетов</h5>
                 </div>
-                <div>
-                    <div id = "circle" class="central">
+                <div data-aos="zoom-in" data-aos-duration="1700">
+                    <div id = "circle" class="central" >
                         <div class="block">
-                            <img class="img-centered img-circle" src = "guitar.png">
+                            <img class="img-centered img-circle" src = "img/guitar.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Бард<br>клуб</h5>
                 </div>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="1900">
                     <div id = "circle" class="central">
                         <div class="block">
-                            <img class="img-centered img-circle" src = "saxophone.png">
+                            <img class="img-centered img-circle" src = "img/star.svg">
                         </div>
                     </div>
-                        <h5 class = "text-center gray-text">Джазовые<br>вечера</h5>
+                        <h5 class = "text-center gray-text">Звездные<br>встречи</h5>
                 </div>
-                <div>
-                    <div id = "circle" class="central">
+                <div data-aos="zoom-in" data-aos-duration="2100">
+                    <div id = "circle" class="central" >
                         <div class="block">
-                            <img class="img-centered img-circle" src = "lecture.png">
+                            <img class="img-centered img-circle" src = "img/lecture.png">
                         </div>
                     </div>
                         <h5 class = "text-center gray-text">Проведение<br>лекций</h5>
@@ -327,7 +327,7 @@
     </div>
 </div> -->
 
-<div id="after-circle">
+<div id="after-circle" data-aos="fade-up" data-aos-duration="1200">
     <div  class="md-padding central">
         <div class="container-fluid start">
             <div class = "show-md">
@@ -349,14 +349,14 @@
             <div class = "hide-md central">
                 <div class="row">
                     <div class="col-md-6 central">
-                        <div id ="map">
+                        <div id ="map" data-aos="fade-right" data-aos-duration="1200">
                             <iframe src="https://snazzymaps.com/embed/178195" width="100%" height="100%" style="border:none;" class="shadow-pink"></iframe>
                         </div>
                     </div>
-                    <div class="col-md-4 offset-md-1 central">
+                    <div class="col-md-4 offset-md-1 central" data-aos="fade-left" data-aos-duration="1200">
                         <div class="block">
                             <h1 class = "text-left black-text">Заходите к нам в гости</h1>
-                            <p class = "text-left">У беларусаў быў культ зерня, і людзі пакланяліся яму. Мы заўсёды помнілі, што кожнае зернетка старэйшае за нас, і веда лі, што яно вечнае. Яно тысячагоддзямі захоўвае ў сабе жыццё. Заўсёды гатова нарадзіць колас. Зярняты, знойдзеныя ў грабні цах фараонаў, праз тысячы гадоў кінутыя ў зямлю, прарасталі і давалі ўраджай</h3>
+                            <p class = "text-left"><b>Каждый будний день, с 9.30 до 17.30</b>, мы ждем посетителей в нашем кафе, расположенном в городе Минске по адресу <b>Брестская, 2</b>, где обеспечим Вам домашний уют, радушный прием и качественное обслуживание. Если у Вас появилось желание провести мероприятие на базе нашего зала, непременно обращайтесь к нам для детального обсуждения.
                             <h2 class = "text-left"><a href="contact.html">Свяжитесь с нами</a></h2>
                         </div>
                     </div>
@@ -389,13 +389,13 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script type="text/javascript" src="jquery.magnific-popup.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
     function checkScroll(){
-    var startY = $('.navbar').height() * 2.5; //The point where the navbar changes in px
+    var startY = $('.navbar').height() * 1.5; //The point where the navbar changes in px
 
     if($(window).scrollTop() > startY){
         $('.navbar').addClass("scrolled");
@@ -431,5 +431,8 @@ if($('.navbar').length > 0){
     });
   });
 });
+</script>
+<script>
+    AOS.init();
 </script>
 </body>
