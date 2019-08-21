@@ -213,7 +213,7 @@ a
 }  
 
 
-@media (min-width: 576px) and (max-width: 765.98px)
+@media (min-width: 576px) and (max-width: 767.98px)
 {
     h3
     {
@@ -319,6 +319,10 @@ a
     {
         font-size: 2.7rem;
     }
+    .navbar-nav.column  
+    {
+        height: calc(100vh - 75px);
+    }
 }
 
 
@@ -422,10 +426,7 @@ a
  
 @media (max-width: 991.98px)
 {
-    .navbar-nav.column  
-    {
-        height: calc(100vh - 76px);
-    }
+    
     .navbar{
         background-color: #fff;
         padding: 15px;
@@ -800,6 +801,10 @@ nav a:before {
     {
         display: none;
     }
+    .navbar-nav.column  
+    {
+        height: calc(100vh - 105px);
+    }
 }
 
 
@@ -915,7 +920,7 @@ hr{
 {
     #map
     {
-        margin-top: 2rem;
+        margin-top: 4rem;
         height: 50vh;
         width: 100%;
     }
